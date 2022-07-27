@@ -1,0 +1,105 @@
+:root{
+    --vermelho: #E60914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*Elemento base*/
+body{
+    background: var(--preta);
+    font-family: 'arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;  /*ira ficar disponivel para trabalhar com flexbox, tem a tendencia de alinhar tudo*/
+    flex-direction: row; /**/
+    align-items: center; /*centraliza os elementos*/
+    justify-content: space-between; /*Serve para justificar os elementos, space-between cria um espaço entre os elementos h2 e a*/
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;    
+}
+
+header nav a{
+    text-align: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('capa-smallville.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*Sempre segue a direção do flex-direction*/
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 13px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo-filme {
+    margin-top: 15%;
+    font-size: 38px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px; /*Se estiver em duvida em qual borda esta aumentando, sempre lembre que é no sentido horario (primeiro parte de cima (cima-baixo, segundo direita (direita e esquerda), terceiro baixo e quarto esquerdo)*/
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+/*wrapper = envelopar  // container (estudar)*/
+
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}

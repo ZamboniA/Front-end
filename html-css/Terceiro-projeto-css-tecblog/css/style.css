@@ -1,0 +1,134 @@
+body{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #d2ebff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#cabecalho{
+    background: #819FF7;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo{
+    padding: 8px;
+}
+
+.menu{
+    text-align: center;
+    margin: auto;
+    background: black;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+
+.cor-blog{
+   color: white;
+}
+
+#corpo-principal{
+    width: 1000px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#postagem-principal{
+    width: 660px;
+    float: left;
+}
+
+#postagem-lateral{
+    width: 240px;
+    float: right;
+}
+
+.container-post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.container-lateral{
+    background: white;
+    padding: 10px;
+    border-bottom: 1px dotted #CCC;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+    background-color: black;
+    color: #d2ebff;
+}
+
+
+/*formatação links*/
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #819FF7;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.menu a:link, .menu a:visited{
+    color: white;
+    padding: 8px 15px;
+}
+
+.menu a:hover{
+    color: #819FF7;
+    background: white;
+    text-decoration: none;
+    padding-bottom: 12px;
+    padding-top: 5px;
+}
+
+.link-lateral{
+    margin-top: 10px;
+}
+
+/*formtação geral*/
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    color: #819FF7;
+}
+
+h3{
+    color: #819FF7;
+    background: black;
+    margin: -10px;
+    padding-bottom: 3px;
+}
+
+p{
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
